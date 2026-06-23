@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-06-23T22:18:07.069423",
+  "positions": [
+    {
+      "pair": "AXISBANK / JSWSTEEL",
+      "position": "SHORT spread",
+      "entry_s1": 1363.5,
+      "entry_s2": 1242.2,
+      "live_s1": 1363.5,
+      "live_s2": 1242.2,
+      "open_pnl": 0.0,
+      "open_pnl_pct": 0.0,
+      "as_of": "2026-06-23T22:15:40"
+    },
+    {
+      "pair": "APOLLOHOSP / COLPAL",
+      "position": "SHORT spread",
+      "entry_s1": 8487.5,
+      "entry_s2": 1980.5,
+      "live_s1": 8487.5,
+      "live_s2": 1980.5,
+      "open_pnl": 0.0,
+      "open_pnl_pct": 0.0,
+      "as_of": "2026-06-23T22:15:40"
+    },
+    {
+      "pair": "APOLLOHOSP / TATACONSUM",
+      "position": "SHORT spread",
+      "entry_s1": 8487.5,
+      "entry_s2": 1103.8,
+      "live_s1": 8487.5,
+      "live_s2": 1103.8,
+      "open_pnl": 0.0,
+      "open_pnl_pct": 0.0,
+      "as_of": "2026-06-23T22:15:40"
+    },
+    {
+      "pair": "APOLLOHOSP / TCS",
+      "position": "SHORT spread",
+      "entry_s1": 8487.5,
+      "entry_s2": 2059.6,
+      "live_s1": 8487.5,
+      "live_s2": 2059.6,
+      "open_pnl": 0.0,
+      "open_pnl_pct": 0.0,
+      "as_of": "2026-06-23T22:15:40"
+    }
+  ]
+}
