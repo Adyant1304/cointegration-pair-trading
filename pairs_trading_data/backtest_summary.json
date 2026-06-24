@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:37:26.633659",
+  "generated_at": "2026-06-24T20:08:23.999964",
   "results": [
     {
       "pair": "SBILIFE / TATACONSUM",
@@ -41,12 +41,12 @@
       "Win Rate (%)": 49.81,
       "Profit Factor": 1.147,
       "Total Trades": 16,
-      "Final Equity (\u20b9)": 127594.91
+      "Final Equity (\u20b9)": 127594.92
     },
     {
       "pair": "LT / NESTLEIND",
       "Total Return (%)": 36.28,
-      "Ann. Return (%)": 17.1,
+      "Ann. Return (%)": 17.11,
       "Ann. Volatility (%)": 61.56,
       "Sharpe Ratio": 0.195,
       "Sortino Ratio": 0.24,
@@ -55,7 +55,7 @@
       "Win Rate (%)": 52.74,
       "Profit Factor": 1.075,
       "Total Trades": 22,
-      "Final Equity (\u20b9)": 136279.22
+      "Final Equity (\u20b9)": 136279.25
     },
     {
       "pair": "DRREDDY / ULTRACEMCO",
@@ -83,7 +83,7 @@
       "Win Rate (%)": 49.58,
       "Profit Factor": 1.128,
       "Total Trades": 20,
-      "Final Equity (\u20b9)": 112058.17
+      "Final Equity (\u20b9)": 112058.18
     },
     {
       "pair": "APOLLOHOSP / PERSISTENT",
@@ -97,7 +97,7 @@
       "Win Rate (%)": 51.95,
       "Profit Factor": 1.035,
       "Total Trades": 20,
-      "Final Equity (\u20b9)": 106063.03
+      "Final Equity (\u20b9)": 106063.05
     },
     {
       "pair": "APOLLOHOSP / HCLTECH",
@@ -111,7 +111,7 @@
       "Win Rate (%)": 47.79,
       "Profit Factor": 0.916,
       "Total Trades": 24,
-      "Final Equity (\u20b9)": 53204.38
+      "Final Equity (\u20b9)": 53204.4
     },
     {
       "pair": "APOLLOHOSP / DRREDDY",
@@ -139,7 +139,7 @@
       "Win Rate (%)": 50.38,
       "Profit Factor": 0.894,
       "Total Trades": 13,
-      "Final Equity (\u20b9)": 81279.35
+      "Final Equity (\u20b9)": 81279.32
     }
   ]
 }

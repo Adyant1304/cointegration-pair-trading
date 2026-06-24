@@ -1,64 +1,61 @@
 import streamlit as st
 import pandas as pd
-import json
-import os
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 
-# ─── 1. CONFIG & STYLING ────────────────────────────────────────────────────────
-st.set_page_config(page_title="Pairs Engine", layout="wide")
+st.set_page_config(page_title="Are we a pair?", layout="wide")
 
-# Standardized path
-DATA_DIR = "pairs_trading_data"
+st.title("Are we a pair?")
 
-# ─── 2. DATA LOADERS ────────────────────────────────────────────────────────────
-@st.cache_data(ttl=60)
-def load_json(filename):
-    path = os.path.join(DATA_DIR, filename)
-    if os.path.exists(path):
-        with open(path, "r") as f: return json.load(f)
-    return None
-
-@st.cache_data
-def load_csv(filename):
-    path = os.path.join(DATA_DIR, filename)
-    if os.path.exists(path): return pd.read_csv(path)
-    return pd.DataFrame()
-
-# ─── 3. MAIN DASHBOARD ──────────────────────────────────────────────────────────
-st.title("Market Intelligence")
+# 1. Define the tabs
 tab1, tab2, tab3 = st.tabs(["Live Radar", "Historical Backtests", "Pair Explorer"])
 
-# Load data inside the tabs to prevent errors if files are missing
+# ─── TAB 1: LIVE RADAR ────────────────────────────────────────────────────────
 with tab1:
-    open_positions = load_json("open_positions.json")
-    live_signals = load_json("live_signals.json")
-    col1, col2 = st.columns(2)
-    with col1:
-        st.subheader("Open Positions")
-        if open_positions and "positions" in open_positions:
-            st.dataframe(pd.DataFrame(open_positions["positions"]), use_container_width=True)
-        else:
-            st.info("No active positions.")
-    with col2:
-        st.subheader("Signals")
-        if live_signals and "signals" in live_signals:
-            st.dataframe(pd.DataFrame(live_signals["signals"]), use_container_width=True)
+    st.subheader("Open Positions")
+    try:
+        positions_df = pd.read_json("pairs_trading_data/open_positions.json")
+        st.dataframe(positions_df, width='stretch')
+    except:
+        st.warning("Positions data not found.")
 
+    st.subheader("Signals")
+    try:
+        signals_df = pd.read_csv("pairs_trading_data/signals.csv")
+        st.dataframe(signals_df, width='stretch')
+    except:
+        st.warning("Signals data not found.")
+
+# ─── TAB 2: HISTORICAL BACKTESTS ──────────────────────────────────────────────
 with tab2:
-    backtest_summary = load_csv("backtest_summary.csv")
-    if not backtest_summary.empty:
-        st.dataframe(backtest_summary, use_container_width=True)
-    else:
-        st.info("Run 04_backtest.py to generate summary.")
+    st.subheader("Strategy Performance Metrics")
+    try:
+        backtest_df = pd.read_csv("pairs_trading_data/backtest_summary.csv")
+        st.dataframe(backtest_df, width='stretch')
+    except:
+        st.warning("Backtest data not found.")
 
+# ─── TAB 3: PAIR EXPLORER ─────────────────────────────────────────────────────
 with tab3:
-    signals_df = load_csv("signals.csv")
-    if not signals_df.empty:
-        pair = st.selectbox("Select Pair", signals_df["pair"].unique())
-        data = signals_df[signals_df["pair"] == pair]
+    st.subheader("Pair Explorer")
+    try:
+        signals_df = pd.read_csv("pairs_trading_data/signals.csv")
+        pair_list = signals_df['pair'].unique().tolist()
+        
+        selected_pair = st.selectbox("Select Pair", pair_list)
+        
+        # --- PLOTTING LOGIC ---
+        st.write(f"Displaying data for: {selected_pair}")
+        
+        # This assumes your data has columns like 'date', 'spread', or 'z_score'
+        # Adjust the filenames/columns based on how you save your pair data
+        # For this example, let's assume you have a file per pair or a master file
+        
+        # Example plot:
         fig = go.Figure()
-        fig.add_trace(go.Scatter(x=data["Date"], y=data["spread"], name="Spread"))
-        fig.update_layout(template="plotly_dark")
-        # Fixed the warning here by removing use_container_width
-        st.plotly_chart(fig)
+        # Replace these with your actual data source logic
+        # fig.add_trace(go.Scatter(x=df['date'], y=df['z_score'], name="Z-Score"))
+        
+        st.plotly_chart(fig, width='stretch')
+        
+    except Exception as e:
+        st.warning(f"Could not load data for Pair Explorer: {e}")
