@@ -1,495 +1,495 @@
 {
-  "fetched_at": "2026-06-24T20:06:52.946319",
+  "fetched_at": "2026-06-24T20:41:48.673492",
   "prices": {
     "ABB.NS": {
       "price": 6967.5,
       "prev_close": 7158.5,
       "change": -191.0,
       "change_pct": -2.67,
-      "timestamp": "2026-06-24 20:06:14"
+      "timestamp": "2026-06-24 20:40:46"
     },
     "ACC.NS": {
       "price": 1347.0,
       "prev_close": 1333.0,
       "change": 14.0,
       "change_pct": 1.05,
-      "timestamp": "2026-06-24 20:06:14"
+      "timestamp": "2026-06-24 20:40:47"
     },
     "ADANIENT.NS": {
       "price": 3069.7,
       "prev_close": 2965.0,
       "change": 104.7,
       "change_pct": 3.53,
-      "timestamp": "2026-06-24 20:06:15"
+      "timestamp": "2026-06-24 20:40:48"
     },
     "ADANIGREEN.NS": {
       "price": 1525.4,
       "prev_close": 1511.2,
       "change": 14.2,
       "change_pct": 0.94,
-      "timestamp": "2026-06-24 20:06:16"
+      "timestamp": "2026-06-24 20:40:49"
     },
     "ADANIPORTS.NS": {
       "price": 1813.3,
       "prev_close": 1784.0,
       "change": 29.3,
       "change_pct": 1.64,
-      "timestamp": "2026-06-24 20:06:16"
+      "timestamp": "2026-06-24 20:40:50"
     },
     "AMBUJACEM.NS": {
       "price": 426.85,
       "prev_close": 414.85,
       "change": 12.0,
       "change_pct": 2.89,
-      "timestamp": "2026-06-24 20:06:17"
+      "timestamp": "2026-06-24 20:40:51"
     },
     "APOLLOHOSP.NS": {
       "price": 8573.5,
       "prev_close": 8465.5,
       "change": 108.0,
       "change_pct": 1.28,
-      "timestamp": "2026-06-24 20:06:17"
+      "timestamp": "2026-06-24 20:40:52"
     },
     "AXISBANK.NS": {
       "price": 1384.5,
       "prev_close": 1363.5,
       "change": 21.0,
       "change_pct": 1.54,
-      "timestamp": "2026-06-24 20:06:17"
+      "timestamp": "2026-06-24 20:40:53"
     },
     "BAJAJ-AUTO.NS": {
       "price": 9750.0,
       "prev_close": 9999.0,
       "change": -249.0,
       "change_pct": -2.49,
-      "timestamp": "2026-06-24 20:06:18"
+      "timestamp": "2026-06-24 20:40:54"
     },
     "BAJAJFINSV.NS": {
       "price": 1780.5,
       "prev_close": 1765.0,
       "change": 15.5,
       "change_pct": 0.88,
-      "timestamp": "2026-06-24 20:06:18"
+      "timestamp": "2026-06-24 20:40:55"
     },
     "BAJFINANCE.NS": {
       "price": 990.95,
       "prev_close": 962.1,
       "change": 28.85,
       "change_pct": 3.0,
-      "timestamp": "2026-06-24 20:06:19"
+      "timestamp": "2026-06-24 20:40:55"
     },
     "BANDHANBNK.NS": {
       "price": 211.76,
       "prev_close": 207.12,
       "change": 4.64,
       "change_pct": 2.24,
-      "timestamp": "2026-06-24 20:06:19"
+      "timestamp": "2026-06-24 20:40:56"
     },
     "BHARTIARTL.NS": {
       "price": 1877.3,
       "prev_close": 1901.6,
       "change": -24.3,
       "change_pct": -1.28,
-      "timestamp": "2026-06-24 20:06:20"
+      "timestamp": "2026-06-24 20:40:57"
     },
     "BPCL.NS": {
       "price": 315.7,
       "prev_close": 308.6,
       "change": 7.1,
       "change_pct": 2.3,
-      "timestamp": "2026-06-24 20:06:20"
+      "timestamp": "2026-06-24 20:40:58"
     },
     "BRITANNIA.NS": {
       "price": 5262.5,
       "prev_close": 5230.5,
       "change": 32.0,
       "change_pct": 0.61,
-      "timestamp": "2026-06-24 20:06:21"
+      "timestamp": "2026-06-24 20:40:59"
     },
     "CHOLAFIN.NS": {
       "price": 1792.9,
       "prev_close": 1711.7,
       "change": 81.2,
       "change_pct": 4.74,
-      "timestamp": "2026-06-24 20:06:21"
+      "timestamp": "2026-06-24 20:41:00"
     },
     "CIPLA.NS": {
       "price": 1437.9,
       "prev_close": 1435.6,
       "change": 2.3,
       "change_pct": 0.16,
-      "timestamp": "2026-06-24 20:06:22"
+      "timestamp": "2026-06-24 20:41:01"
     },
     "COALINDIA.NS": {
       "price": 441.75,
       "prev_close": 444.65,
       "change": -2.9,
       "change_pct": -0.65,
-      "timestamp": "2026-06-24 20:06:23"
+      "timestamp": "2026-06-24 20:41:02"
     },
     "COLPAL.NS": {
       "price": 1965.3,
       "prev_close": 1980.5,
       "change": -15.2,
       "change_pct": -0.77,
-      "timestamp": "2026-06-24 20:06:23"
+      "timestamp": "2026-06-24 20:41:03"
     },
     "DABUR.NS": {
       "price": 424.1,
       "prev_close": 419.8,
       "change": 4.3,
       "change_pct": 1.02,
-      "timestamp": "2026-06-24 20:06:23"
+      "timestamp": "2026-06-24 20:41:03"
     },
     "DIVISLAB.NS": {
       "price": 6753.5,
       "prev_close": 6753.0,
       "change": 0.5,
       "change_pct": 0.01,
-      "timestamp": "2026-06-24 20:06:24"
+      "timestamp": "2026-06-24 20:41:04"
     },
     "DLF.NS": {
       "price": 618.15,
       "prev_close": 612.5,
       "change": 5.65,
       "change_pct": 0.92,
-      "timestamp": "2026-06-24 20:06:25"
+      "timestamp": "2026-06-24 20:41:05"
     },
     "DRREDDY.NS": {
       "price": 1328.4,
       "prev_close": 1301.3,
       "change": 27.1,
       "change_pct": 2.08,
-      "timestamp": "2026-06-24 20:06:25"
+      "timestamp": "2026-06-24 20:41:06"
     },
     "EICHERMOT.NS": {
       "price": 7572.0,
       "prev_close": 7578.0,
       "change": -6.0,
       "change_pct": -0.08,
-      "timestamp": "2026-06-24 20:06:26"
+      "timestamp": "2026-06-24 20:41:07"
     },
     "FEDERALBNK.NS": {
       "price": 325.2,
       "prev_close": 319.9,
       "change": 5.3,
       "change_pct": 1.66,
-      "timestamp": "2026-06-24 20:06:26"
+      "timestamp": "2026-06-24 20:41:08"
     },
     "GAIL.NS": {
       "price": 174.93,
       "prev_close": 173.84,
       "change": 1.09,
       "change_pct": 0.63,
-      "timestamp": "2026-06-24 20:06:27"
+      "timestamp": "2026-06-24 20:41:09"
     },
     "GODREJCP.NS": {
       "price": 1020.5,
       "prev_close": 1020.7,
       "change": -0.2,
       "change_pct": -0.02,
-      "timestamp": "2026-06-24 20:06:28"
+      "timestamp": "2026-06-24 20:41:10"
     },
     "GRASIM.NS": {
       "price": 3127.9,
       "prev_close": 3144.3,
       "change": -16.4,
       "change_pct": -0.52,
-      "timestamp": "2026-06-24 20:06:29"
+      "timestamp": "2026-06-24 20:41:11"
     },
     "HAVELLS.NS": {
       "price": 1186.2,
       "prev_close": 1174.8,
       "change": 11.4,
       "change_pct": 0.97,
-      "timestamp": "2026-06-24 20:06:29"
+      "timestamp": "2026-06-24 20:41:12"
     },
     "HCLTECH.NS": {
       "price": 1113.9,
       "prev_close": 1108.3,
       "change": 5.6,
       "change_pct": 0.51,
-      "timestamp": "2026-06-24 20:06:30"
+      "timestamp": "2026-06-24 20:41:12"
     },
     "HDFCBANK.NS": {
       "price": 793.2,
       "prev_close": 772.9,
       "change": 20.3,
       "change_pct": 2.63,
-      "timestamp": "2026-06-24 20:06:30"
+      "timestamp": "2026-06-24 20:41:13"
     },
     "HDFCLIFE.NS": {
       "price": 591.75,
       "prev_close": 594.25,
       "change": -2.5,
       "change_pct": -0.42,
-      "timestamp": "2026-06-24 20:06:31"
+      "timestamp": "2026-06-24 20:41:14"
     },
     "HEROMOTOCO.NS": {
       "price": 4897.2,
       "prev_close": 4984.0,
       "change": -86.8,
       "change_pct": -1.74,
-      "timestamp": "2026-06-24 20:06:32"
+      "timestamp": "2026-06-24 20:41:15"
     },
     "HINDALCO.NS": {
       "price": 976.6,
       "prev_close": 987.0,
       "change": -10.4,
       "change_pct": -1.05,
-      "timestamp": "2026-06-24 20:06:32"
+      "timestamp": "2026-06-24 20:41:16"
     },
     "HINDUNILVR.NS": {
       "price": 2157.8,
       "prev_close": 2160.1,
       "change": -2.3,
       "change_pct": -0.11,
-      "timestamp": "2026-06-24 20:06:33"
+      "timestamp": "2026-06-24 20:41:17"
     },
     "ICICIBANK.NS": {
       "price": 1373.6,
       "prev_close": 1335.5,
       "change": 38.1,
       "change_pct": 2.85,
-      "timestamp": "2026-06-24 20:06:33"
+      "timestamp": "2026-06-24 20:41:18"
     },
     "ICICIGI.NS": {
       "price": 1821.1,
       "prev_close": 1833.7,
       "change": -12.6,
       "change_pct": -0.69,
-      "timestamp": "2026-06-24 20:06:34"
+      "timestamp": "2026-06-24 20:41:19"
     },
     "IDEA.NS": {
       "price": 14.31,
       "prev_close": 14.44,
       "change": -0.13,
       "change_pct": -0.9,
-      "timestamp": "2026-06-24 20:06:34"
+      "timestamp": "2026-06-24 20:41:19"
     },
     "INDUSINDBK.NS": {
       "price": 927.6,
       "prev_close": 903.0,
       "change": 24.6,
       "change_pct": 2.72,
-      "timestamp": "2026-06-24 20:06:35"
+      "timestamp": "2026-06-24 20:41:20"
     },
     "INFY.NS": {
       "price": 1056.6,
       "prev_close": 1029.0,
       "change": 27.6,
       "change_pct": 2.68,
-      "timestamp": "2026-06-24 20:06:35"
+      "timestamp": "2026-06-24 20:41:21"
     },
     "IOC.NS": {
       "price": 146.3,
       "prev_close": 143.17,
       "change": 3.13,
       "change_pct": 2.19,
-      "timestamp": "2026-06-24 20:06:36"
+      "timestamp": "2026-06-24 20:41:22"
     },
     "ITC.NS": {
       "price": 290.35,
       "prev_close": 290.0,
       "change": 0.35,
       "change_pct": 0.12,
-      "timestamp": "2026-06-24 20:06:36"
+      "timestamp": "2026-06-24 20:41:23"
     },
     "JSWSTEEL.NS": {
       "price": 1231.2,
       "prev_close": 1242.2,
       "change": -11.0,
       "change_pct": -0.89,
-      "timestamp": "2026-06-24 20:06:37"
+      "timestamp": "2026-06-24 20:41:24"
     },
     "KOTAKBANK.NS": {
       "price": 405.95,
       "prev_close": 401.9,
       "change": 4.05,
       "change_pct": 1.01,
-      "timestamp": "2026-06-24 20:06:37"
+      "timestamp": "2026-06-24 20:41:25"
     },
     "LT.NS": {
       "price": 4181.7,
       "prev_close": 4169.8,
       "change": 11.9,
       "change_pct": 0.29,
-      "timestamp": "2026-06-24 20:06:38"
+      "timestamp": "2026-06-24 20:41:26"
     },
     "M&M.NS": {
       "price": 3064.5,
       "prev_close": 3042.0,
       "change": 22.5,
       "change_pct": 0.74,
-      "timestamp": "2026-06-24 20:06:38"
+      "timestamp": "2026-06-24 20:41:27"
     },
     "MARICO.NS": {
       "price": 819.45,
       "prev_close": 821.05,
       "change": -1.6,
       "change_pct": -0.19,
-      "timestamp": "2026-06-24 20:06:39"
+      "timestamp": "2026-06-24 20:41:28"
     },
     "MARUTI.NS": {
       "price": 13248.0,
       "prev_close": 13451.0,
       "change": -203.0,
       "change_pct": -1.51,
-      "timestamp": "2026-06-24 20:06:40"
+      "timestamp": "2026-06-24 20:41:28"
     },
     "MPHASIS.NS": {
       "price": 2261.1,
       "prev_close": 2244.6,
       "change": 16.5,
       "change_pct": 0.74,
-      "timestamp": "2026-06-24 20:06:40"
+      "timestamp": "2026-06-24 20:41:29"
     },
     "NESTLEIND.NS": {
       "price": 1382.6,
       "prev_close": 1392.2,
       "change": -9.6,
       "change_pct": -0.69,
-      "timestamp": "2026-06-24 20:06:41"
+      "timestamp": "2026-06-24 20:41:30"
     },
     "NMDC.NS": {
       "price": 85.7,
       "prev_close": 85.0,
       "change": 0.7,
       "change_pct": 0.82,
-      "timestamp": "2026-06-24 20:06:41"
+      "timestamp": "2026-06-24 20:41:31"
     },
     "NTPC.NS": {
       "price": 357.05,
       "prev_close": 363.55,
       "change": -6.5,
       "change_pct": -1.79,
-      "timestamp": "2026-06-24 20:06:42"
+      "timestamp": "2026-06-24 20:41:32"
     },
     "ONGC.NS": {
       "price": 240.0,
       "prev_close": 244.35,
       "change": -4.35,
       "change_pct": -1.78,
-      "timestamp": "2026-06-24 20:06:42"
+      "timestamp": "2026-06-24 20:41:33"
     },
     "PERSISTENT.NS": {
       "price": 4928.5,
       "prev_close": 4833.0,
       "change": 95.5,
       "change_pct": 1.98,
-      "timestamp": "2026-06-24 20:06:43"
+      "timestamp": "2026-06-24 20:41:34"
     },
     "POWERGRID.NS": {
       "price": 290.9,
       "prev_close": 292.5,
       "change": -1.6,
       "change_pct": -0.55,
-      "timestamp": "2026-06-24 20:06:43"
+      "timestamp": "2026-06-24 20:41:35"
     },
     "RELIANCE.NS": {
       "price": 1313.6,
       "prev_close": 1306.0,
       "change": 7.6,
       "change_pct": 0.58,
-      "timestamp": "2026-06-24 20:06:44"
+      "timestamp": "2026-06-24 20:41:36"
     },
     "SBILIFE.NS": {
       "price": 1767.7,
       "prev_close": 1786.2,
       "change": -18.5,
       "change_pct": -1.04,
-      "timestamp": "2026-06-24 20:06:44"
+      "timestamp": "2026-06-24 20:41:37"
     },
     "SBIN.NS": {
       "price": 1034.6,
       "prev_close": 1023.6,
       "change": 11.0,
       "change_pct": 1.07,
-      "timestamp": "2026-06-24 20:06:45"
+      "timestamp": "2026-06-24 20:41:37"
     },
     "SHREECEM.NS": {
       "price": 26070.0,
       "prev_close": 25035.0,
       "change": 1035.0,
       "change_pct": 4.13,
-      "timestamp": "2026-06-24 20:06:46"
+      "timestamp": "2026-06-24 20:41:38"
     },
     "SIEMENS.NS": {
       "price": 3561.5,
       "prev_close": 3685.9,
       "change": -124.4,
       "change_pct": -3.38,
-      "timestamp": "2026-06-24 20:06:46"
+      "timestamp": "2026-06-24 20:41:39"
     },
     "SUNPHARMA.NS": {
       "price": 1874.4,
       "prev_close": 1864.0,
       "change": 10.4,
       "change_pct": 0.56,
-      "timestamp": "2026-06-24 20:06:47"
+      "timestamp": "2026-06-24 20:41:40"
     },
     "TATACONSUM.NS": {
       "price": 1098.1,
       "prev_close": 1103.0,
       "change": -4.9,
       "change_pct": -0.44,
-      "timestamp": "2026-06-24 20:06:47"
+      "timestamp": "2026-06-24 20:41:41"
     },
     "TATASTEEL.NS": {
       "price": 190.16,
       "prev_close": 193.09,
       "change": -2.93,
       "change_pct": -1.52,
-      "timestamp": "2026-06-24 20:06:48"
+      "timestamp": "2026-06-24 20:41:42"
     },
     "TCS.NS": {
       "price": 2109.0,
       "prev_close": 2060.0,
       "change": 49.0,
       "change_pct": 2.38,
-      "timestamp": "2026-06-24 20:06:49"
+      "timestamp": "2026-06-24 20:41:43"
     },
     "TECHM.NS": {
       "price": 1461.6,
       "prev_close": 1415.6,
       "change": 46.0,
       "change_pct": 3.25,
-      "timestamp": "2026-06-24 20:06:49"
+      "timestamp": "2026-06-24 20:41:44"
     },
     "TITAN.NS": {
       "price": 4323.8,
       "prev_close": 4305.3,
       "change": 18.5,
       "change_pct": 0.43,
-      "timestamp": "2026-06-24 20:06:50"
+      "timestamp": "2026-06-24 20:41:45"
     },
     "TVSMOTOR.NS": {
       "price": 3440.6,
       "prev_close": 3456.2,
       "change": -15.6,
       "change_pct": -0.45,
-      "timestamp": "2026-06-24 20:06:51"
+      "timestamp": "2026-06-24 20:41:46"
     },
     "ULTRACEMCO.NS": {
       "price": 11430.0,
       "prev_close": 11307.0,
       "change": 123.0,
       "change_pct": 1.09,
-      "timestamp": "2026-06-24 20:06:51"
+      "timestamp": "2026-06-24 20:41:46"
     },
     "VEDL.NS": {
       "price": 282.55,
       "prev_close": 282.15,
       "change": 0.4,
       "change_pct": 0.14,
-      "timestamp": "2026-06-24 20:06:52"
+      "timestamp": "2026-06-24 20:41:47"
     },
     "WIPRO.NS": {
       "price": 174.48,
       "prev_close": 174.49,
       "change": -0.01,
       "change_pct": -0.01,
-      "timestamp": "2026-06-24 20:06:52"
+      "timestamp": "2026-06-24 20:41:48"
     }
   }
 }
