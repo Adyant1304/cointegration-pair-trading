@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:28:14.363850",
+  "generated_at": "2026-06-24T19:37:05.872211",
   "signals": [
     {
       "pair": "APOLLOHOSP / HCLTECH",
@@ -11,7 +11,7 @@
       "s2_chg": 0.51,
       "half_life": 14.7,
       "window": 14,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "AXISBANK / JSWSTEEL",
@@ -23,7 +23,7 @@
       "s2_chg": -0.89,
       "half_life": 10.2,
       "window": 10,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "DRREDDY / ULTRACEMCO",
@@ -35,7 +35,7 @@
       "s2_chg": 1.09,
       "half_life": 22.1,
       "window": 22,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "APOLLOHOSP / COLPAL",
@@ -47,7 +47,7 @@
       "s2_chg": -0.77,
       "half_life": 22.9,
       "window": 22,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "APOLLOHOSP / DRREDDY",
@@ -59,7 +59,7 @@
       "s2_chg": 2.08,
       "half_life": 21.9,
       "window": 21,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "APOLLOHOSP / PERSISTENT",
@@ -71,7 +71,7 @@
       "s2_chg": 1.98,
       "half_life": 17.5,
       "window": 17,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "SBILIFE / TATACONSUM",
@@ -83,7 +83,7 @@
       "s2_chg": -0.44,
       "half_life": 15.4,
       "window": 15,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "APOLLOHOSP / ULTRACEMCO",
@@ -95,7 +95,7 @@
       "s2_chg": 1.09,
       "half_life": 16.2,
       "window": 16,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "LT / NESTLEIND",
@@ -107,7 +107,7 @@
       "s2_chg": -0.69,
       "half_life": 13.9,
       "window": 13,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "DRREDDY / NESTLEIND",
@@ -119,7 +119,7 @@
       "s2_chg": -0.69,
       "half_life": 23.8,
       "window": 23,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     }
   ]
 }

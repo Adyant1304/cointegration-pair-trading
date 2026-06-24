@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:28:35.181471",
+  "generated_at": "2026-06-24T19:37:26.649035",
   "positions": [
     {
       "pair": "AXISBANK / JSWSTEEL",
@@ -10,7 +10,7 @@
       "live_s2": 1231.2,
       "open_pnl": 0.0,
       "open_pnl_pct": 0.0,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "APOLLOHOSP / COLPAL",
@@ -21,7 +21,7 @@
       "live_s2": 1965.3,
       "open_pnl": 0.0,
       "open_pnl_pct": 0.0,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "APOLLOHOSP / DRREDDY",
@@ -32,7 +32,7 @@
       "live_s2": 1328.4,
       "open_pnl": 0.0,
       "open_pnl_pct": 0.0,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "LT / NESTLEIND",
@@ -43,7 +43,7 @@
       "live_s2": 1382.6,
       "open_pnl": 0.0,
       "open_pnl_pct": 0.0,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     },
     {
       "pair": "DRREDDY / NESTLEIND",
@@ -54,7 +54,7 @@
       "live_s2": 1382.6,
       "open_pnl": 0.0,
       "open_pnl_pct": 0.0,
-      "as_of": "2026-06-24T19:26:56"
+      "as_of": "2026-06-24T19:35:37"
     }
   ]
 }

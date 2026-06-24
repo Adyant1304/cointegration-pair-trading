@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:28:35.162155",
+  "generated_at": "2026-06-24T19:37:26.633659",
   "results": [
     {
       "pair": "SBILIFE / TATACONSUM",
@@ -55,7 +55,7 @@
       "Win Rate (%)": 52.74,
       "Profit Factor": 1.075,
       "Total Trades": 22,
-      "Final Equity (\u20b9)": 136279.08
+      "Final Equity (\u20b9)": 136279.22
     },
     {
       "pair": "DRREDDY / ULTRACEMCO",
@@ -97,7 +97,7 @@
       "Win Rate (%)": 51.95,
       "Profit Factor": 1.035,
       "Total Trades": 20,
-      "Final Equity (\u20b9)": 106063.02
+      "Final Equity (\u20b9)": 106063.03
     },
     {
       "pair": "APOLLOHOSP / HCLTECH",
@@ -111,7 +111,7 @@
       "Win Rate (%)": 47.79,
       "Profit Factor": 0.916,
       "Total Trades": 24,
-      "Final Equity (\u20b9)": 53204.05
+      "Final Equity (\u20b9)": 53204.38
     },
     {
       "pair": "APOLLOHOSP / DRREDDY",
@@ -125,7 +125,7 @@
       "Win Rate (%)": 47.95,
       "Profit Factor": 0.9,
       "Total Trades": 13,
-      "Final Equity (\u20b9)": 57553.04
+      "Final Equity (\u20b9)": 57553.05
     },
     {
       "pair": "DRREDDY / NESTLEIND",
@@ -139,7 +139,7 @@
       "Win Rate (%)": 50.38,
       "Profit Factor": 0.894,
       "Total Trades": 13,
-      "Final Equity (\u20b9)": 81279.34
+      "Final Equity (\u20b9)": 81279.35
     }
   ]
 }
