@@ -33,63 +33,57 @@ with tab1:
                 
                 expanded_df = pd.DataFrame(parsed_records)
                 
-                # --- ROBUST LIVE PNL ENGINE ---
+                # --- LIVE PNL CALCULATION ENGINE ---
                 if not expanded_df.empty and 'pair' in expanded_df.columns:
-                    # 1. Gather unique tickers
                     unique_tickers = set()
                     for p in expanded_df['pair']:
                         t1, t2 = p.split(' / ')
                         unique_tickers.add(f"{t1}.NS")
                         unique_tickers.add(f"{t2}.NS")
                     
-                    # 2. Fetch prices individually (safer than bulk download)
-                    live_prices = {}
-                    for ticker in unique_tickers:
-                        try:
-                            # Grabs the absolute latest closing price
-                            live_prices[ticker] = yf.Ticker(ticker).history(period="1d")['Close'].iloc[-1]
-                        except Exception:
-                            pass
-                    
-                    # 3. Calculate Math
-                    for idx, row in expanded_df.iterrows():
-                        t1, t2 = row['pair'].split(' / ')
-                        tk1, tk2 = f"{t1}.NS", f"{t2}.NS"
+                    if unique_tickers:
+                        # Fetch latest prices for all open positions at once
+                        live_prices = yf.download(list(unique_tickers), period="1d")["Close"].iloc[-1]
                         
-                        if tk1 in live_prices and tk2 in live_prices:
-                            current_s1 = live_prices[tk1]
-                            current_s2 = live_prices[tk2]
-                            
-                            expanded_df.at[idx, 'live_s1'] = round(current_s1, 2)
-                            expanded_df.at[idx, 'live_s2'] = round(current_s2, 2)
-                            
-                            # Calculate % PnL
-                            if "SHORT" in str(row['position']).upper():
-                                pnl = ((row['entry_s1'] - current_s1) / row['entry_s1']) + ((current_s2 - row['entry_s2']) / row['entry_s2'])
-                            else:
-                                pnl = ((current_s1 - row['entry_s1']) / row['entry_s1']) + ((row['entry_s2'] - current_s2) / row['entry_s2'])
-                            
-                            expanded_df.at[idx, 'open_pnl'] = round(pnl * 100, 2)
-                        else:
-                            expanded_df.at[idx, 'open_pnl'] = 0.00
+                        for idx, row in expanded_df.iterrows():
+                            t1, t2 = row['pair'].split(' / ')
+                            try:
+                                current_s1 = live_prices[f"{t1}.NS"]
+                                current_s2 = live_prices[f"{t2}.NS"]
+                                
+                                # Update live prices
+                                expanded_df.at[idx, 'live_s1'] = round(current_s1, 2)
+                                expanded_df.at[idx, 'live_s2'] = round(current_s2, 2)
+                                
+                                # Calculate % PnL based on position type
+                                if "SHORT" in str(row['position']).upper():
+                                    pnl = ((row['entry_s1'] - current_s1) / row['entry_s1']) + ((current_s2 - row['entry_s2']) / row['entry_s2'])
+                                else:
+                                    pnl = ((current_s1 - row['entry_s1']) / row['entry_s1']) + ((row['entry_s2'] - current_s2) / row['entry_s2'])
+                                
+                                expanded_df.at[idx, 'open_pnl'] = round(pnl * 100, 2) # As percentage
+                            except Exception:
+                                expanded_df.at[idx, 'open_pnl'] = 0.0
 
+                # Define columns to display
                 target_pos_cols = ['pair', 'position', 'entry_s1', 'entry_s2', 'live_s1', 'live_s2', 'open_pnl']
                 display_pos_cols = [c for c in target_pos_cols if c in expanded_df.columns]
                 
-                # Apply Color
+                # --- APPLY COLOR STYLING ---
                 def color_pnl(val):
                     try:
                         val = float(val)
-                        if val > 0: return 'color: #00ff00'
-                        elif val < 0: return 'color: #ff4b4b'
+                        if val > 0: return 'color: #00ff00' # Bright Green
+                        elif val < 0: return 'color: #ff4b4b' # Red
                         return 'color: gray'
                     except:
                         return ''
 
                 if display_pos_cols:
+                    # Apply styling and percentage formatting to the dataframe
                     styled_df = expanded_df[display_pos_cols].style\
                         .map(color_pnl, subset=['open_pnl'])\
-                        .format({'open_pnl': '{:+.2f}%', 'entry_s1': '{:.2f}', 'entry_s2': '{:.2f}', 'live_s1': '{:.2f}', 'live_s2': '{:.2f}'})
+                        .format({'open_pnl': '{:+.2f}%'})
                     st.dataframe(styled_df, width='stretch')
                 else:
                     st.dataframe(expanded_df, width='stretch')
@@ -105,14 +99,12 @@ with tab1:
         try:
             signals_df = pd.read_csv("pairs_trading_data/signals.csv")
             
-            # --- FIXED EMOJI MAPPING ---
             def format_signal(val):
-                val_str = str(val).upper().strip()
+                val_str = str(val).upper()
                 if "SHORT" in val_str: return "🔴 " + val_str
                 elif "LONG" in val_str: return "🟢 " + val_str
                 elif "EXIT" in val_str or "FLAT" in val_str: return "🟡 " + val_str
-                # Added "0.0" and "0" to catch those empty signal rows
-                elif val_str in ["0", "0.0", "NONE", "NAN", "NO SIGNAL"]: return "⚪ NO SIGNAL"
+                elif "NO SIGNAL" in val_str or val_str == "NONE" or val_str == "0": return "⚪ NO SIGNAL"
                 return val_str
 
             if 'signal' in signals_df.columns:
