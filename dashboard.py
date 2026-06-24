@@ -37,18 +37,18 @@ with tab1:
     with col1:
         st.subheader("Open Positions")
         if open_positions and "positions" in open_positions:
-            st.dataframe(pd.DataFrame(open_positions["positions"]), width=None)
+            st.dataframe(pd.DataFrame(open_positions["positions"]), use_container_width=True)
         else:
             st.info("No active positions.")
     with col2:
         st.subheader("Signals")
         if live_signals and "signals" in live_signals:
-            st.dataframe(pd.DataFrame(live_signals["signals"]), width=None)
+            st.dataframe(pd.DataFrame(live_signals["signals"]), use_container_width=True)
 
 with tab2:
     backtest_summary = load_csv("backtest_summary.csv")
     if not backtest_summary.empty:
-        st.dataframe(backtest_summary, width=None)
+        st.dataframe(backtest_summary, use_container_width=True)
     else:
         st.info("Run 04_backtest.py to generate summary.")
 
